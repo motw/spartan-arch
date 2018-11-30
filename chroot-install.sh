@@ -27,7 +27,7 @@ hwclock --systohc
 # setup locale
 echo 'Setting up locale'
 sed -i 's/^#de_DE.UTF-8/de_DE.UTF-8/' /etc/locale.gen
-sed -i 's/^#en_US.UTF-8/en_US.UTF-8/' /etc/locale.gen
+#sed -i 's/^#en_US.UTF-8/en_US.UTF-8/' /etc/locale.gen
 locale-gen
 echo 'LANG=de_DE.UTF-8' > /etc/locale.conf
 
