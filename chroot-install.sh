@@ -36,8 +36,8 @@ echo 'Setting up hostname'
 echo 'arch-virtualbox' > /etc/hostname
 
 # build
-echo 'Building'
-mkinitcpio -p linux
+#echo 'Building'
+#mkinitcpio -p linux
 
 # install bootloader
 echo 'Installing bootloader'
